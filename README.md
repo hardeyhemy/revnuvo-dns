@@ -1,41 +1,39 @@
 # Revnuvo DNS Intelligence
 
-DNS Intelligence API for agents, MCP clients and automation platforms.
+DNS Intelligence API for AI Agents.
 
-## Endpoints
+## Tools
 
-### Verify Domain
+### verify_domain
 
-POST /domain/verify
+Checks if a domain exists and returns:
 
-Input:
+- exists
+- has_mx
+- has_a
+- dnssec
+- checked_at
 
-```json
-{
-  "domain": "stripe.com"
-}
-```
+### resolve_domain_dns
 
-### Resolve DNS
+Returns:
 
-POST /domain/dns
-
-Input:
-
-```json
-{
-  "domain": "stripe.com"
-}
-```
-
-## Base URL
-
-https://dns.revnuvo.site
+- A records
+- AAAA records
+- MX records
+- TXT records
+- NS records
 
 ## MCP Endpoint
 
 https://mcp.revnuvo.site/mcp
 
-## Pricing
+## DNS API
 
-$0.02 USDC per request via x402.
+https://dns.revnuvo.site
+
+## Example
+
+verify_domain("stripe.com")
+
+resolve_domain_dns("stripe.com")
