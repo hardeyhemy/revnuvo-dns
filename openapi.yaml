@@ -1,0 +1,51 @@
+openapi: 3.1.0
+
+info:
+title: Revnuvo DNS Intelligence API
+version: 1.0.0
+description: DNS verification and DNS record resolution API
+
+servers:
+
+* url: https://dns.revnuvo.site
+
+paths:
+/domain/verify:
+post:
+operationId: verifyDomain
+summary: Verify DNS registration status
+requestBody:
+required: true
+content:
+application/json:
+schema:
+type: object
+required:
+- domain
+properties:
+domain:
+type: string
+example: stripe.com
+responses:
+"200":
+description: Success
+
+/domain/dns:
+post:
+operationId: resolveDomainDns
+summary: Resolve DNS records
+requestBody:
+required: true
+content:
+application/json:
+schema:
+type: object
+required:
+- domain
+properties:
+domain:
+type: string
+example: stripe.com
+responses:
+"200":
+description: Success
