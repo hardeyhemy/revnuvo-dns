@@ -4,6 +4,9 @@ DNS Intelligence API for AI Agents.
 
 ## Tools
 
+## Available on Smithery
+
+[Install via Smithery](https://smithery.ai/server/tijaniiismael62/revnuvo-dns)
 ### verify_domain
 
 Checks if a domain exists and returns:
