@@ -1,0 +1,13 @@
+name: revnuvo-dns
+
+description: DNS Intelligence MCP Server
+
+homepage: https://dns.revnuvo.site
+
+tools:
+  - verify_domain
+  - resolve_domain_dns
+
+mcp:
+  transport: streamable-http
+  endpoint: https://mcp.revnuvo.site/mcp
