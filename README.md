@@ -5,7 +5,7 @@ DNS Intelligence API for AI Agents.
 ## Tools
 
 ## Available on Smithery
-
+https://smithery.ai/badge/tijaniismael62/revnuvo-dns
 https://smithery.ai/server/tijaniiismael62/revnuvo-dns
 ### verify_domain
 
