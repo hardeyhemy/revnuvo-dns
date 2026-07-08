@@ -1,13 +1,16 @@
 name: revnuvo-dns
-
-description: Domain trust and DNS intelligence for AI agents, priced in USDC via x402. Full docs and SDK at developers.revnuvo.site and MCP Server
-
+description: Domain trust and DNS intelligence for AI agents, priced in USDC via x402. Full docs and SDK at developers.revnuvo.site.
 homepage: https://developers.revnuvo.site
-
 tools:
   - verify_domain
   - resolve_domain_dns
-
+  - register_agent
+  - create_task
+  - submit_result
+  - verify_task
+  - get_agent
+  - assess_domain
+  - get_leaderboard
 mcp:
   transport: streamable-http
   endpoint: https://mcp.revnuvo.site/mcp
