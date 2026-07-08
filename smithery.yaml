@@ -1,8 +1,8 @@
 name: revnuvo-dns
 
-description: DNS Intelligence MCP Server
+description: Domain trust and DNS intelligence for AI agents, priced in USDC via x402. Full docs and SDK: developers.revnuvo.site and MCP Server
 
-homepage: https://dns.revnuvo.site
+homepage: https://developers.revnuvo.site
 
 tools:
   - verify_domain
